@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script type="text/javascript" src="js/functions.js"></script>
 </head>
 
 <body>
@@ -27,10 +28,9 @@
     <!-- NAVBAR SECTION -->
 
     <!-- NOT SURE WHAT TO DO HERE SECTION -->
-    <div class="jumbotron">
-        <div class="container">
+    <div class="row">
+        <div class="col-lg-4">
             <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">Not sure what to put here yet. Probably a picture of my face</p>
         </div>
     </div>
 
@@ -64,7 +64,7 @@
                     <!-- L3HARRIS -->
                     <div class="row align-items-center">
                         <div class="col-lg-1">
-                            <img class="job-logo" src="assets/img/l3harris-globe.png">
+                            <img src="assets/img/l3harris-globe.png">
                         </div>
                         <div class="col-lg-11">
                             <h2>Associate Software Engineer</h2>
@@ -110,7 +110,7 @@
                     <!-- FSU DSA MARKETING -->
                     <div class="row align-items-center" style="margin-top: 3%;">
                         <div class="col-lg-1">
-                            <img class="job-logo" src="assets/img/florida-state-university-logo-png.png">
+                            <img src="assets/img/fsu-emblem.png">
                         </div>
                         <div class="col-lg-11">
                             <h2>Web Developer Intern</h2>
@@ -151,7 +151,7 @@
 
     <!-- SKILLS SECTION -->
     <div class="container">
-        <h1>Skills</h1>
+        <h1>Skills [this section is currently under construction]</h1>
         <div class="row">
             <div class="col-md-6">
                 <p>Languages</p>
@@ -179,7 +179,23 @@
             <div class="col-md-6">
                 <p>RabbitMQ</p>
                 <p>Thingsboard</p>
+                <span type="button" onclick="Toasty()"><img src="assets/img/zoro-shlumped.gif"></span>
             </div>
+        </div>
+    </div>
+
+    <div class="position-fixed top-50 start-50 translate-middle">
+        <div id="EpicToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="mr-auto">Buzz off. I'm taking a break right now. Come back later.</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="EpicToast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="mr-auto"></strong>
         </div>
     </div>
 
@@ -199,22 +215,6 @@
         </div>
     </div>
 
-    <!-- <div class="container my-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1">Why should you consider me?</h1>
-                <p class="lead">I pride myself in my versatility. I may not know what the task ahead of me entails; but
-                    I know that with the right resources- I can get the work done.</p>
-            </div>
-            <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-
     <!-- <div class="container">
         <p>i love dinosaurs</p>
     </div>
@@ -230,53 +230,6 @@
     <div class="container">
         <p>favorite artists: tyler creator, miller mac, kid cudi, sean henry</p>
     </div> -->
-
-    <!-- 
-    <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-            <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom
-                        button</button>
-                    <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- 
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
-                        href="#list-home" role="tab" aria-controls="list-home">Home</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
-                        href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
-                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
-                        href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
-                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
-                        href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
-                </div>
-            </div>
-            <div class="col-8">
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                        aria-labelledby="list-home-list">no dick</div>
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">no
-                        balls</div>
-                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                        probably no butthole since this guy feeds on radiation</div>
-                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                        ...</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

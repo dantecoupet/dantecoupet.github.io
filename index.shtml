@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dante's Page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!-- NAVBAR SECTION -->
+
+    <!-- NOT SURE WHAT TO DO HERE SECTION -->
+    <!-- <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to
+                featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+        </div>
+    </div> -->
+
+    <!-- WHO AM I SECTION -->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Who am I?</h1>
+                <p class="lead">My name is Dante Coupet. I graduated from <span class="gt">Florida</span> <span
+                        class="gd">State</span> <span class="blk">University</span> with a B.S. in
+                    Computer Science and a minor in Mathematics. My areas of interest are neural networking and
+                    artificial intelligence.</p>
+            </div>
+            <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Download my unofficial
+                        transcript</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EXPERIENCE SECTION -->
+    <div class="jumbotron bg-green">
+        <div class="container">
+            <h1 class="display-4 fw-bold lh-1">Experience</h1>
+            <div class="row p-4 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+                <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+                    <h2>Associate Software Engineer</h2>
+                    <h4>L3Harris Technologies</h4>
+                    <h6>June, 2021 &mdash; Now</h6>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab-2" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-f35icp-list"
+                                    data-bs-toggle="list" href="#list-f35icp" role="tab"
+                                    aria-controls="list-f35icp">F-35
+                                    <abbr title="Technology Refresh 3 Integrated Core Processor">TR3 ICP</abbr>
+                                    Program</a>
+                                <a class="list-group-item list-group-item-action" id="list-splm-list"
+                                    data-bs-toggle="list" href="#list-splm" role="tab" aria-controls="list-splm">Special
+                                    Project: Lab Monitor System</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-f35icp" role="tabpanel"
+                                    aria-labelledby="list-f35icp-list">
+                                    <ul>
+                                        <li>Worked on the <abbr
+                                                title="Software Functional Qualification Testing">SWFQT</abbr> team and
+                                            performed requirements-based verification tests on embedded computer
+                                            software configuration items with Python scripts in Linux and LynxOS-178
+                                            virtual machines.</li>
+                                        <li>Developed a bash script that communicated with the ICP Chiller which
+                                            improved overall team efficiency and aided in preventing catastrophic damage
+                                            to expensive hardware.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-splm" role="tabpanel"
+                                    aria-labelledby="list-splm-list">
+                                    <ul>
+                                        <li>Worked on a team of three to develop Python scripts for communicating with
+                                            specific lab hardware.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <h2>Web Developer Intern</h2>
+                    <h4>Florida State University: Division of Student Affairs and Marketing</h4>
+                    <h6>October, 2018 &mdash; April, 2021</h6>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab-1" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-dsaweb-list"
+                                    data-bs-toggle="list" href="#list-dsaweb" role="tab" aria-controls="list-f35icp">FSU
+                                    Web Development</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-dsaweb" role="tabpanel"
+                                    aria-labelledby="list-dsaweb-list">
+                                    <ul>
+                                        <li>Utilized Drupal’s content management framework, Bootstrap CSS, and HTML to
+                                            develop, design, and update websites for FSU Student Affairs.</li>
+                                        <li>Developed server-side web pages for FSU student-related websites.</li>
+                                        <li>Maintained a strong focus on user friendliness while developing and
+                                            deploying new interfaces.</li>
+                                        <li>Drafted and delivered in-depth analytical reports outlining FSU social media
+                                            performance and metrics.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <p class="fw-bold">Download a PDF of my resume <a href="#">here</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div class="container">
+        <h1>Skills</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Languages</p>
+            </div>
+            <div class="col-md-6">
+                <p>C++</p>
+                <p>C</p>
+                <p>Python</p>
+                <p>Java</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Operating Systems</p>
+            </div>
+            <div class="col-md-6">
+                <p>LynxOS-178</p>
+                <p>Linux</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Networking</p>
+            </div>
+            <div class="col-md-6">
+                <p>RabbitMQ</p>
+                <p>Thingsboard</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- GOALS SECTION -->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">What are my goals?</h1>
+                <p class="lead">I aim to become an expert in embedded systems and software development. I hope to work with my friends in making a great contribution to the world using software.</p>
+            </div>
+            <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Why should you consider me?</h1>
+                <p class="lead">I pride myself in my versatility. I may not know what the task ahead of me entails; but
+                    I know that with the right resources- I can get the work done.</p>
+            </div>
+            <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- <div class="container">
+        <p>i love dinosaurs</p>
+    </div>
+
+    <div class="container">
+        <p>I LOVE MUSIC. my favorite bands, NUMBER GIRL, coldplay, drop nineteens, yuck, whirr</p>
+    </div>
+
+    <div class="container">
+        <p>favorite albums: </p>
+    </div>
+
+    <div class="container">
+        <p>favorite artists: tyler creator, miller mac, kid cudi, sean henry</p>
+    </div> -->
+
+    <!-- 
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
+                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom
+                        button</button>
+                    <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- 
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                        href="#list-home" role="tab" aria-controls="list-home">Home</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">no dick</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">no
+                        balls</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        probably no butthole since this guy feeds on radiation</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        ...</div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

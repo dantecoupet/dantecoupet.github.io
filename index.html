@@ -12,6 +12,8 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -25,19 +27,12 @@
     <!-- NAVBAR SECTION -->
 
     <!-- NOT SURE WHAT TO DO HERE SECTION -->
-    <!-- <div class="jumbotron">
+    <div class="jumbotron">
         <div class="container">
             <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to
-                featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+            <p class="lead">Not sure what to put here yet. Probably a picture of my face</p>
         </div>
-    </div> -->
+    </div>
 
     <!-- WHO AM I SECTION -->
     <div class="container my-5">
@@ -59,79 +54,87 @@
     </div>
 
     <!-- EXPERIENCE SECTION -->
-    <div class="jumbotron bg-green">
+    <div class="jumbotron">
         <div class="container">
-            <h1 class="display-4 fw-bold lh-1">Experience</h1>
+            <h1 class="display-4 fw-bold lh-1">My Journey...</h1>
+
             <div class="row p-4 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
                 <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
-                    <h2>Associate Software Engineer</h2>
-                    <h4>L3Harris Technologies</h4>
-                    <h6>June, 2021 &mdash; Now</h6>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="list-group" id="list-tab-2" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-f35icp-list"
-                                    data-bs-toggle="list" href="#list-f35icp" role="tab"
-                                    aria-controls="list-f35icp">F-35
-                                    <abbr title="Technology Refresh 3 Integrated Core Processor">TR3 ICP</abbr>
-                                    Program</a>
-                                <a class="list-group-item list-group-item-action" id="list-splm-list"
-                                    data-bs-toggle="list" href="#list-splm" role="tab" aria-controls="list-splm">Special
-                                    Project: Lab Monitor System</a>
+
+                    <!-- L3HARRIS -->
+                    <div class="row align-items-center">
+                        <div class="col-lg-1">
+                            <img class="job-logo" src="assets/img/l3harris-globe.png">
+                        </div>
+                        <div class="col-lg-11">
+                            <h2>Associate Software Engineer</h2>
+                            <h4>L3Harris Technologies</h4>
+                            <h6>June, 2021 &mdash; Now</h6>
+                        </div>
+                    </div>
+                    <div class="row job-card">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-fighter-jet">&nbsp;</i>F-35
+                                        <abbr title="Technology Refresh 3 Integrated Core Processor">TR3 ICP</abbr>
+                                        Program
+                                    </h5>
+                                    <h6 class="card-subtitle mb-2 text-muted"><abbr
+                                            title="Software Functional Qualification Testing">SWFQT</abbr> Team</h6>
+                                    <p class="card-text">Performed requirements-based verification tests on embedded
+                                        computer software configuration items with Python scripts in Linux and
+                                        LynxOS-178 virtual machines.</p>
+                                    <p class="card-text">Developed a bash script that communicated with the ICP Chiller
+                                        which improved overall team efficiency and aided in preventing catastrophic
+                                        damage to expensive hardware.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-8">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="list-f35icp" role="tabpanel"
-                                    aria-labelledby="list-f35icp-list">
-                                    <ul>
-                                        <li>Worked on the <abbr
-                                                title="Software Functional Qualification Testing">SWFQT</abbr> team and
-                                            performed requirements-based verification tests on embedded computer
-                                            software configuration items with Python scripts in Linux and LynxOS-178
-                                            virtual machines.</li>
-                                        <li>Developed a bash script that communicated with the ICP Chiller which
-                                            improved overall team efficiency and aided in preventing catastrophic damage
-                                            to expensive hardware.</li>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade" id="list-splm" role="tabpanel"
-                                    aria-labelledby="list-splm-list">
-                                    <ul>
-                                        <li>Worked on a team of three to develop Python scripts for communicating with
-                                            specific lab hardware.</li>
-                                    </ul>
+                    </div>
+                    <div class="row job-card">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-network-wired">&nbsp;</i>Special Project:
+                                        Lab Monitor System
+                                    </h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Software Development</h6>
+                                    <p class="card-text">Worked on a team of three to develop Python scripts for
+                                        monitoring and communicating with specific lab hardware.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <hr />
-
-                    <h2>Web Developer Intern</h2>
-                    <h4>Florida State University: Division of Student Affairs and Marketing</h4>
-                    <h6>October, 2018 &mdash; April, 2021</h6>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="list-group" id="list-tab-1" role="tablist">
-                                <a class="list-group-item list-group-item-action active" id="list-dsaweb-list"
-                                    data-bs-toggle="list" href="#list-dsaweb" role="tab" aria-controls="list-f35icp">FSU
-                                    Web Development</a>
-                            </div>
+                    <!-- FSU DSA MARKETING -->
+                    <div class="row align-items-center" style="margin-top: 3%;">
+                        <div class="col-lg-1">
+                            <img class="job-logo" src="assets/img/florida-state-university-logo-png.png">
                         </div>
-                        <div class="col-8">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="list-dsaweb" role="tabpanel"
-                                    aria-labelledby="list-dsaweb-list">
-                                    <ul>
-                                        <li>Utilized Drupal’s content management framework, Bootstrap CSS, and HTML to
-                                            develop, design, and update websites for FSU Student Affairs.</li>
-                                        <li>Developed server-side web pages for FSU student-related websites.</li>
-                                        <li>Maintained a strong focus on user friendliness while developing and
-                                            deploying new interfaces.</li>
-                                        <li>Drafted and delivered in-depth analytical reports outlining FSU social media
-                                            performance and metrics.</li>
-                                    </ul>
+                        <div class="col-lg-11">
+                            <h2>Web Developer Intern</h2>
+                            <h4>Florida State University</h4>
+                            <h6>October, 2018 &mdash; April, 2021</h6>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 3%;">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-university">&nbsp;</i>Division of Student
+                                        Affairs and Marketing
+                                    </h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Web Development</h6>
+                                    <p class="card-text">Utilized Drupal’s content management framework, Bootstrap CSS,
+                                        and HTML to develop, design, and update websites for FSU Student Affairs.</p>
+                                    <p class="card-text">Developed server-side web pages for FSU student-related
+                                        websites.</p>
+                                    <p class="card-text">Maintained a strong focus on user friendliness while developing
+                                        and deploying new interfaces.</p>
+                                    <p class="card-text">Drafted and delivered in-depth analytical reports outlining FSU
+                                        social media performance and metrics.</p>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +188,9 @@
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                 <h1 class="display-4 fw-bold lh-1">What are my goals?</h1>
-                <p class="lead">I aim to become an expert in embedded systems and software development. I hope to work with my friends in making a great contribution to the world using software and a little bit of imagination.</p>
+                <p class="lead">I aim to become an expert in embedded systems and software development. I hope to work
+                    with my friends in making a great contribution to the world using software and a little bit of
+                    imagination.</p>
             </div>
             <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
@@ -276,6 +281,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f1eb06107c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
